@@ -33,5 +33,5 @@ Do you like *DataPacker*? Or do you believe in the *further development* of the 
 **Don't hesitate to donate** to encourage me to continue developing this project.
 
 <div align="center">
-	<p>Just click <code>❤️ Sponsor</code> to get more information</p>
+	<p>Just click <code>❤️ Sponsor</code> to get more information!</p>
 </div>
