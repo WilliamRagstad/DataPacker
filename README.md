@@ -31,3 +31,7 @@ I believe this project has great potential to grow into an even bigger platform 
 
 Do you like *DataPacker*? Or do you believe in the *further development* of the visionary platform?
 **Don't hesitate to donate** to encourage me to continue developing this project.
+
+<div align="center">
+	<p>Just click <code>❤️ Sponsor</code> to get more information</p>
+</div>
