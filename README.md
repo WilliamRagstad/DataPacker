@@ -31,12 +31,3 @@ I believe this project has great potential to grow into an even bigger platform 
 
 Do you like *DataPacker*? Or do you believe in the *further development* of the visionary platform?
 **Don't hesitate to donate** to encourage me to continue developing this project.
-
-<div align="center">
-	<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
-    	<input type="hidden" name="cmd" value="_s-xclick">
-    	<input type="hidden" name="hosted_button_id" value="EE547MVYP4Z5A">
-    	<input type="image" src="https://raw.githubusercontent.com/stefan-niedermann/paypal-donate-button/master/paypal-donate-button.png" width="250px" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button">
-    </form>
-</div>
-
