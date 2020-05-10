@@ -28,8 +28,11 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UC_MainMenuView));
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.button4 = new System.Windows.Forms.Button();
+            this.imageList1 = new System.Windows.Forms.ImageList(this.components);
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
@@ -51,7 +54,7 @@
             this.tableLayoutPanel1.Controls.Add(this.button2, 1, 0);
             this.tableLayoutPanel1.Controls.Add(this.button1, 0, 0);
             this.tableLayoutPanel1.Controls.Add(this.button3, 0, 1);
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(24, 108);
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(24, 104);
             this.tableLayoutPanel1.MaximumSize = new System.Drawing.Size(1000, 170);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.Padding = new System.Windows.Forms.Padding(10);
@@ -67,13 +70,26 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.button4.AutoSize = true;
+            this.button4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button4.ImageIndex = 3;
+            this.button4.ImageList = this.imageList1;
             this.button4.Location = new System.Drawing.Point(286, 88);
             this.button4.MaximumSize = new System.Drawing.Size(0, 50);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(267, 50);
             this.button4.TabIndex = 3;
-            this.button4.Text = "button4";
+            this.button4.Text = "Help";
             this.button4.UseVisualStyleBackColor = true;
+            // 
+            // imageList1
+            // 
+            this.imageList1.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList1.ImageStream")));
+            this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
+            this.imageList1.Images.SetKeyName(0, "export_icon.png");
+            this.imageList1.Images.SetKeyName(1, "import_icon.png");
+            this.imageList1.Images.SetKeyName(2, "Customize.ico");
+            this.imageList1.Images.SetKeyName(3, "Get Info.ico");
+            this.imageList1.Images.SetKeyName(4, "grass.png");
             // 
             // button2
             // 
@@ -81,23 +97,29 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.button2.AutoSize = true;
+            this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button2.ImageIndex = 0;
+            this.button2.ImageList = this.imageList1;
             this.button2.Location = new System.Drawing.Point(286, 13);
             this.button2.MaximumSize = new System.Drawing.Size(0, 50);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(267, 50);
             this.button2.TabIndex = 1;
-            this.button2.Text = "button2";
+            this.button2.Text = "Export And Publish";
             this.button2.UseVisualStyleBackColor = true;
             // 
             // button1
             // 
             this.button1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button1.ImageIndex = 1;
+            this.button1.ImageList = this.imageList1;
             this.button1.Location = new System.Drawing.Point(13, 13);
             this.button1.MaximumSize = new System.Drawing.Size(0, 50);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(267, 50);
             this.button1.TabIndex = 0;
-            this.button1.Text = "button1";
+            this.button1.Text = "Import From File";
             this.button1.UseVisualStyleBackColor = true;
             // 
             // button3
@@ -106,12 +128,15 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.button3.AutoSize = true;
+            this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button3.ImageIndex = 4;
+            this.button3.ImageList = this.imageList1;
             this.button3.Location = new System.Drawing.Point(13, 88);
             this.button3.MaximumSize = new System.Drawing.Size(0, 50);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(267, 50);
             this.button3.TabIndex = 2;
-            this.button3.Text = "button3";
+            this.button3.Text = "Import From World";
             this.button3.UseVisualStyleBackColor = true;
             // 
             // label_version
@@ -165,5 +190,6 @@
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Label label_version;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.ImageList imageList1;
     }
 }
